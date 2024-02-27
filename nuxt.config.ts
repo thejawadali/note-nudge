@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     '@element-plus/nuxt',
+    'nuxt-icon',
     '@nuxtjs/color-mode',
     '@vite-pwa/nuxt',
     'nuxt-module-eslint-config',
