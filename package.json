@@ -14,7 +14,7 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.3",
+    "@antfu/eslint-config": "^2.6.4",
     "@iconify-json/carbon": "^1.1.27",
     "@iconify-json/twemoji": "^1.1.15",
     "@nuxtjs/color-mode": "^3.3.2",
@@ -24,7 +24,7 @@
     "@vite-pwa/nuxt": "^0.4.0",
     "@vueuse/nuxt": "^10.7.2",
     "consola": "^3.2.3",
-    "eslint": "npm:eslint-ts-patch@^8.56.0-0",
+    "eslint": "^8.57.0",
     "eslint-plugin-format": "^0.1.0",
     "eslint-ts-patch": "^8.56.0-0",
     "nuxt": "^3.9.3",

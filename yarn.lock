@@ -15,7 +15,7 @@
     "@jridgewell/gen-mapping" "^0.3.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@antfu/eslint-config@^2.6.3":
+"@antfu/eslint-config@^2.6.4":
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/@antfu/eslint-config/-/eslint-config-2.6.4.tgz#45e79c01111fdc37b20bef028e8d34c5f5e679f9"
   integrity sha512-dMD/QC5KWS1OltdpKLhfZM7W7y7zils85opk8d4lyNr7yn0OFjZs7eMYtcC6DrrN2kQ1JrFvBM7uB0QdWn5PUQ==
@@ -4520,7 +4520,7 @@ eslint-scope@^7.1.1, eslint-scope@^7.2.2:
     esrecurse "^4.3.0"
     estraverse "^5.2.0"
 
-eslint-ts-patch@^8.56.0-0, "eslint@npm:eslint-ts-patch@^8.56.0-0":
+eslint-ts-patch@^8.56.0-0:
   version "8.56.0-0"
   resolved "https://registry.yarnpkg.com/eslint-ts-patch/-/eslint-ts-patch-8.56.0-0.tgz#e7c1bb8dbf7f125f48caf922be3163b9ece2c33f"
   integrity sha512-J9Efj9P1GBaC665MIeX6+kGje3vToaJ/Z3Ky5yI05Td+xiTCKHlG1cAd3IHgicf0bGYKV/Y/gWyp5/84MfsbOg==
@@ -4534,7 +4534,7 @@ eslint-visitor-keys@^3.0.0, eslint-visitor-keys@^3.3.0, eslint-visitor-keys@^3.4
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-3.4.3.tgz#0cd72fe8550e3c2eae156a96a4dddcd1c8ac5800"
   integrity sha512-wpc+LXeiyiisxPlEkUzU6svyS1frIO3Mgxj1fdy7Pm8Ygzguax2N3Fa/D/ag1WqbOprdI+uY6wMUl8/a2G+iag==
 
-eslint@^8.56.0:
+eslint@^8.56.0, eslint@^8.57.0:
   version "8.57.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.57.0.tgz#c786a6fd0e0b68941aaf624596fb987089195668"
   integrity sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==
