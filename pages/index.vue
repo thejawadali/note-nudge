@@ -5,7 +5,8 @@
 
 <template>
   <div class="text-gray:80 ___">
-home ha
+    <el-button @click="ElMessage('hello')">button</el-button>
+
   </div>
 </template>
 
