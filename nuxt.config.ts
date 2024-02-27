@@ -4,8 +4,8 @@ import { appDescription } from './constants/index'
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
-    '@unocss/nuxt',
     '@pinia/nuxt',
+    '@nuxtjs/tailwindcss',
     '@element-plus/nuxt',
     'nuxt-icon',
     '@nuxtjs/color-mode',
@@ -22,7 +22,6 @@ export default defineNuxtConfig({
   },
 
   css: [
-    '@unocss/reset/tailwind.css',
   ],
 
   colorMode: {
@@ -38,7 +37,6 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       routes: ['/'],
-      ignore: ['/hi'],
     },
   },
 
