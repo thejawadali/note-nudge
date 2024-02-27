@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
+    '@vee-validate/nuxt',
     '@nuxtjs/tailwindcss',
     '@element-plus/nuxt',
     'nuxt-icon',
@@ -12,7 +13,9 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     'nuxt-module-eslint-config',
   ],
-
+  plugins: [
+    '~/plugins/vee-validate'
+  ],
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
     // but missing on offline, disabling extraction it until fixed
